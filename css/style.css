@@ -1,0 +1,77 @@
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background: #0b340b;
+  margin-top: 120px;
+  height: 8000px;
+}
+
+main {
+  color: #07f80a;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  min-width: 100%;
+  height: 80px;
+  margin-bottom: 80px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5); 
+}
+
+.header h1 {
+  padding: 20px 0;
+  color: #07f80a;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.btn {
+  background: #333;
+  color: #07f80a;
+  box-shadow: 0 0 5px 0 #333;
+  padding: 20px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+  transition: .2s ease-out;
+}
+
+.btn:hover {
+  background: #07f80a;
+  color: #0b340b;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.grade {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  background: #333;
+}
+
+#snake {
+  background: #07f80a;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+
